@@ -22,6 +22,13 @@ class TestService
         $this->_demoModel = new TestModel();
     }
 
+    /**
+     * @param $id
+     * @return array|\PDOStatement|string|\think\Model|null
+     * @throws \think\db\exception\DataNotFoundException
+     * @throws \think\db\exception\DbException
+     * @throws \think\db\exception\ModelNotFoundException
+     */
     public function test($id)
     {
         return TestModel::where('id', $id)->find();

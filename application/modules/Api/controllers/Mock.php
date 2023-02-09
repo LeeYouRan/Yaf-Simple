@@ -25,6 +25,15 @@ class MockController extends BaseApi
         $this->_demoService = new TestService();
     }
 
+    /**
+     * service文档
+     */
+    public function docAction()
+    {
+        $service = new Yar_Server(new TestService());
+        $service->handle();
+    }
+
     public function testAction()
     {
         $param = request()->all();
