@@ -5,11 +5,13 @@
 
 参考了:
 
-1.[Weiyixmm/yaf](https://github.com/Weiyixmm/yaf)
+1.[laruence/yaf](https://github.com/laruence/yaf)
 
-2.[yumufeng/thinkyaf](https://github.com/yumufeng/thinkyaf)
+2.[Weiyixmm/yaf](https://github.com/Weiyixmm/yaf)
 
-3.[liaoshengping/yaf_init](https://github.com/liaoshengping/yaf_init)
+3.[yumufeng/thinkyaf](https://github.com/yumufeng/thinkyaf)
+
+4.[liaoshengping/yaf_init](https://github.com/liaoshengping/yaf_init)
 
 整合了thinkphp-orm，利用yaf的高性能，整合了一些网上的轮子和API接口需要的组件，致力于提高生产环境下的运行性能和开发环境下的开发效率。
 
