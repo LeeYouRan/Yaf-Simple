@@ -359,7 +359,7 @@ if (!function_exists('safe')) {
     }
 }
 if (!function_exists('jump')) {
-    function dump($var, $echo = true, $label = null, $flags = ENT_SUBSTITUTE)
+    function jump($var, $echo = true, $label = null, $flags = ENT_SUBSTITUTE)
     {
         $label = (null === $label) ? '' : rtrim($label) . ':';
         ob_start();
